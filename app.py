@@ -64,7 +64,7 @@ use_example_file = st.checkbox(
 )
 
 if use_example_file:
-    example_file = "sumple_uber.csv"
+    example_file = "sumple_u.csv"
 
 if example_file:
     example_df = pd.read_csv(example_file)
